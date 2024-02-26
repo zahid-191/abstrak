@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abstrak | About Us</title>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Kanit' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Jost' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+    <!-- css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/slick-theme.css">
+    <link rel="stylesheet" href="./aos/aos.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/about.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar bg-body-tertiary fixed-top navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html"><img src="./img/logo-2.svg" alt="logo" width="130"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon nav-icon-show"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./img/logo-2.svg" alt="logo"
+                                width="100"></h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link active dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" href="#">Digital Agency </a>
+                                <!-- dropdown -->
+                                <ul class="dropdown-menu">
+                                    <li><a <a class="dropdown-item" href="./index.html">Digital Agency</a></li>
+                                    <li><a <a class="dropdown-item" href="">Creative Agency</a></li>
+                                    <li><a <a class="dropdown-item" href="">Personal Portfolio</a></li>
+                                    <li><a <a class="dropdown-item" href="">Home Startup</a></li>
+                                    <li><a <a class="dropdown-item" href="">Corporate Agency</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" href="#">Services </a>
+                                <!-- dropdown -->
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="">Service</a></li>
+                                    <li><a class="dropdown-item" href="">Service Tow</a></li>
+                                    <li><a class="dropdown-item" href="">Service Details</a></li>
+                                </ul>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">Portfolio</a>
+                                <!-- dropdown -->
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="">Two Column</a></li>
+                                    <li><a class="dropdown-item" href="">Three Column</a></li>
+                                    <li><a class="dropdown-item" href="">Four Column</a></li>
+                                    <li><a class="dropdown-item" href="">Three Column Width</a></li>
+                                    <li><a class="dropdown-item" href="">Four Column Width</a></li>
+                                    <li><a class="dropdown-item" href="">Portfolio Details</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">Pages</a>
+                                <!-- dropdown -->
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="">About Us</a></li>
+                                    <li><a class="dropdown-item" href="">Our Office</a></li>
+                                    <li><a class="dropdown-item" href="">Case Study</a></li>
+                                    <li><a class="dropdown-item" href="">Case Study Details</a></li>
+                                    <li><a class="dropdown-item" href="">Team</a></li>
+                                    <li><a class="dropdown-item" href="">Team Details</a></li>
+                                    <li><a class="dropdown-item" href="">Our Clients</a></li>
+                                    <li><a class="dropdown-item" href="">Testimonials</a></li>
+                                    <li><a class="dropdown-item" href="">Pricing Table</a></li>
+                                    <li><a class="dropdown-item" href="">Typography</a></li>
+                                    <li><a class="dropdown-item" href="">404 Page</a></li>
+                                    <li><a class="dropdown-item" href="">Coming Soon</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">Blog </a>
+                                <!-- dropdown -->
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="">Blog</a></li>
+                                    <li><a class="dropdown-item" href="">Standard Post</a></li>
+                                    <li><a class="dropdown-item" href="">Gallery Post</a></li>
+                                    <li><a class="dropdown-item" href="">Video Post</a></li>
+                                    <li><a class="dropdown-item" href="">Audio Post</a></li>
+                                    <li><a class="dropdown-item" href="">Quote Post</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                            </li>
+
+                        </ul>
+                        <form class="d-flex " role="search">
+                            <input class="form-control me-2 search-customaizion" type="search" placeholder="Search"
+                                aria-label="Search">
+                            <button class="btn btn-outline-success search-customaizion" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- about-section -->
+
+    <section class="about-page">
+        <div class="about-shape-1">
+            <img src="./img/header2.png" alt="">
+        </div>
+        <div class="aboutsh-2">
+            <img src="./img/bubble-3.png" alt="">
+        </div>
+        <div class="aboutsh-3">
+            <img src="./img/line-5.png" alt="">
+        </div>
+        <div class="container-fluid">
+            <div class="row g-4">
+                <div class="col-xl-6 col-lg-6">
+                    <div class="about-col-text" data-aos="zoom-in">
+                        <h1>One of the fastest growing agency</h1>
+                        <p>We design and develop web and mobile applications for our clients worldwide.</p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6">
+                    <div class="about-col2-img" data-aos="zoom-out">
+                        <img src="./img/abotbg-1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Who we are -->
+    <section class="about-project">
+        <div class="container-fluid">
+            <div class="row g-3">
+                <div class="col-xl-6 col-md-12">
+                    <div class="about-project-img">
+                        <img src="./img/case-study-4.png" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-6 col-md-12">
+                    <div class="about-project-wrapper">
+                        <div class="about-project-text">
+                            <span> Who we are</span>
+                            <h1>Building software for world changers</h1>
+                            <p>Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit
+                                nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat
+                                orci lobortis.</p>
+                            <p>Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.</p>
+                            <button type="button" class="btn slider-btn1">Read More</button>
+                            <div class="slider-box">
+                                <div class="percent-increase">
+                                    <h5><span class="counter">10</span>+</h5>
+                                    <p>Years on the market</p>
+                                </div>
+                                <div class="visitor">
+                                    <h5><span class="counter">1500</span>+</h5>
+                                    <p>Projects delivered so far</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Valus -->
+
+    <section class="our-value">
+        <div class="container-fluid">
+            <div class="our-value-title">
+                <h5>Our Valus</h5>
+                <h1>Why should you work with us?</h1>
+                <p>Nulla facilisi. Nullam in magna id dolor blandit rutrum eget vulputate augue sed eu leo eget risus
+                    imperdiet.</p>
+            </div>
+            <div class="row pt-5 g-4">
+                <div class="col-xl-4 col-md-6">
+                    <div class="our-value-box">
+                        <div class="our-value-body">
+                            <div class="value-number">1</div>
+                            <div class="value-content">
+                                <h3>Exceed clients’ and colleagues’ expectations</h3>
+                                <p>Ut id orci ultricies, gravida arcu ac, elementum eros. Curabitur tortor ipsum,
+                                    imperdiet eget odio ac, faucibus ultricies nisl. Maecenas scelerisque dignissim
+                                    elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="our-value-box">
+                        <div class="our-value-body">
+                            <div class="value-number">2</div>
+                            <div class="value-content">
+                                <h3>Take ownership and question the status quo in a constructive manner</h3>
+                                <p>Nulla facilisi. Vestibulum vel urna eget magna condimentum faucibus. Sed arcu mi,
+                                    semper sed suscipit vel, rhoncus vel justo.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="our-value-box">
+                        <div class="our-value-body">
+                            <div class="value-number">3</div>
+                            <div class="value-content">
+                                <h3>Be brave, curious and experiment – learn from all successes and failures</h3>
+                                <p>Quisque aliquet quis est in faucibus. Aenean eget lorem ac risus placerat convallis
+                                    eget a eros. Suspendisse dignissim ultrices tellus, id placerat mauris lacinia a.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="our-value-box">
+                        <div class="our-value-body">
+                            <div class="value-number">4</div>
+                            <div class="value-content">
+                                <h3>Act in a way that makes all of us proud</h3>
+                                <p>Nulla facilisi. Vestibulum vel urna eget magna condimentum faucibus. Sed arcu mi,
+                                    semper sed suscipit vel, rhoncus vel justo.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="our-value-box">
+                        <div class="our-value-body">
+                            <div class="value-number">5</div>
+                            <div class="value-content">
+                                <h3>Build an inclusive, transparent and socially responsible culture</h3>
+                                <p>Quisque aliquet quis est in faucibus. Aenean eget lorem ac risus placerat convallis
+                                    eget a eros. Suspendisse dignissim ultrices tellus, id placerat mauris lacinia a.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="value-shape-1">
+            <img src="./img/value-shape-1.png" alt="">
+        </div>
+        <div class="value-shape-2">
+            <img src="./img/value-shape-2.png" alt="">
+        </div>
+        <div class="value-line-1">
+            <img src="./img/vlaue-line-1.png" alt="">
+        </div>
+    </section>
+
+
+    <!-- Our Team -->
+    <section class="our-about-team">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-xl-6 col-md-6">
+                    <div class="our-col1-img" data-aos="zoom-in">
+                        <img src="./img/our-team-1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-6 col-md-6">
+                    <div class="our-col2-text" data-aos="zoom-in">
+                        <h5>Our Team</h5>
+                        <h1>Alone we can do so little; together we can do so much.</h1>
+                        <p>Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi.
+                            Vestibulum eget risus velit. Aliquam tristique libero.Our Team</p>
+                        <button type="button" class="btn our-team-btn">Our Team</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--proces Step One -->
+
+    <section class="proces">
+        <div class="container">
+            <div class="process-title">
+                <h5>Process</h5>
+                <h1>Our logo design process</h1>
+                <p>Our comprehensive logo design strategy ensures a perfectly crafted logo for your business.</p>
+            </div>
+            <div class="row pt-5 g-4">
+                <div class="col-xl-4 col-md-6">
+                    <div class="process-icon">
+                        <img src="./img/process-1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-8  col-md-6">
+                    <div class="process-step">
+                        <h5>Step One</h5>
+                        <h2>Discover</h2>
+                        <p>Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.</p>
+                    </div>
+                </div>
+                <div class="col-xl-8  col-md-6">
+                    <div class="process-step-2">
+                        <h5>Step Two</h5>
+                        <h2>Prototype</h2>
+                        <p>Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.</p>
+                    </div>
+                </div>
+                <div class="col-xl-4  col-md-6">
+                    <div class="process-icon">
+                        <img src="./img/process-2.png" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-4  col-md-6">
+                    <div class="process-icon">
+                        <img src="./img/process-3.png" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-8  col-md-6">
+                    <div class="process-step">
+                        <h5>Step Three</h5>
+                        <h2>Test</h2>
+                        <p>Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.</p>
+                    </div>
+                </div>
+                <div class="col-xl-8 col-md-6">
+                    <div class="process-step-2">
+                        <h5>Step Four</h5>
+                        <h2>Build</h2>
+                        <p>Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.</p>
+                    </div>
+                </div>
+                <div class="col-xl-4  col-md-6">
+                    <div class="process-icon">
+                        <img src="./img/process-4.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="process-shape-2">
+            <img src="./img/process-shape-2.png" alt="">
+        </div>
+        <div class="process-shape-1">
+            <img src="img/shape-process-1.png" alt="">
+        </div>
+        <div class="process-line-1">
+            <img src="./img/line-process-1.png" alt="">
+        </div>
+        <div class="process-line-2">
+            <img src="./img/line-process-1.png" alt="">
+        </div>
+        <div class="process-line-3">
+            <img src="./img/line-process-1.png" alt="">
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Let's Work Together -->
+
+        <section class="build-project">
+            <div class="animation-2" data-aos="zoom-in">
+                <img src="./img/animation-2.png" alt="">
+            </div>
+            <div class="animation-1" data-aos="zoom-in">
+                <img src="./img/animation-1.png" alt="">
+            </div>
+            <div class="animation-3" data-aos="zoom-in">
+                <img src="./img/animation-3.png" alt="">
+            </div>
+            <div class="animatin-div pb-5 mb-4">
+                <div class="container">
+                    <div class="build-project-title">
+                        <h5>Let's Work Together</h5>
+                        <h1>Need a successful project?</h1>
+                        <button type="button" class="btn build-project-btn">Estimate Project</button>
+                    </div>
+                </div>
+            </div>
+            <div class="shape-2">
+                <img src="./img/shape-2.png" alt="">
+            </div>
+            <div class="shape-3"></div>
+            <div class="shape-4"></div>
+            <div class="shape-5"></div>
+            <div class="shape-6"></div>
+        </section>
+    
+    
+        <!-- social-media brand -->
+    
+        <section class="social-brand  ">
+            <div class="social-brand-logo ">
+                <div class="container-fluid mt-5 pt-5">
+                    <div class="row g-3">
+                        <div class="col-xl-1 col-1">
+                            <div class="brand-1">
+                                <i class="fa-brands fa-facebook"></i>
+                            </div>
+                        </div>
+                        <div class="col-xl-1 col-1">
+                            <div class="brand-1">
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+                        </div>
+                        <div class="col-xl-1 col-1">
+                            <div class="brand-1">
+                                <i class="fa-brands fa-viber"></i>
+                            </div>
+                        </div>
+                        <div class="col-xl-1 col-1">
+                            <div class="brand-1">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </div>
+                        </div>
+                        <div class="col-xl-1 col-1">
+                            <div class="brand-1">
+                                <i class="fa-brands fa-square-instagram"></i>
+                            </div>
+                        </div>
+                        <div class="col-xl-1 col-1">
+                            <div class="brand-1">
+                                <i class="fa-brands fa-square-snapchat"></i>
+                            </div>
+                        </div>
+                        <div class="col-xl-1 col-1">
+                            <div class="brand-1">
+                                <i class="fa-brands fa-pinterest"></i>
+                            </div>
+                        </div>
+                        <div class="col-xl-1 col-1">
+                            <div class="brand-1">
+                                <i class="fa-solid fa-basketball"></i>
+                            </div>
+                        </div>
+                        <div class="col-xl-1 col-1">
+                            <div class="brand-1">
+                                <i class="fa-brands fa-codepen"></i>
+                            </div>
+                        </div>
+                        <div class="col-xl-1 col-1">
+                            <div class="brand-1">
+                                <i class="fa-brands fa-windows"></i>
+                            </div>
+                        </div>
+                        <div class="col-xl-1 col-1">
+                            <div class="brand-1">
+                                <i class="fa-brands fa-apple"></i>
+                            </div>
+                        </div>
+                        <div class="col-xl-1 col-1">
+                            <div class="brand-1">
+                                <i class="fa-brands fa-google-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    <!-- footer section -->
+
+    <footer class="footer-section">
+        <div class="container-fluid ">
+            <div class="row g-3">
+                <div class="col-xl-5 col-md-5">
+                    <div class="footer-newsletter" data-aos="zoom-in">
+                        <div class="footer-text">
+                            <h1>Get in touch!</h1>
+                            <p>Fusce varius, dolor tempor interdum tristique, dui urna bib endum magna, ut ullamcorper
+                                purus</p>
+                            <div class="footer-form">
+                                <div class="form-box">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <input type="email" name="" id="" placeholder="Email address">
+                                    <button type="submit" class="btn footer-submit-form">Subscribe</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-3">
+                    <div class="service-link" data-aos="zoom-in">
+                        <h3>Services</h3>
+                        <li><a href="#">Logo & Branding</a></li>
+                        <li><a href="#">Website Development</a></li>
+                        <li><a href="#">Mobile App Development</a></li>
+                        <li><a href="#">Search Engine Optimization</a></li>
+                        <li><a href="#">Pay-Per-Click</a></li>
+                        <li><a href="#">Social Media Marketing</a></li>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-2">
+                    <div class="resourses-link " data-aos="zoom-in">
+                        <h3>Resourses</h3>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Case Studies</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-2">
+                    <div class="support-link" data-aos="zoom-in">
+                        <h3>Support</h3>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                    </div>
+                </div>
+                <div class="col-xl-12">
+                    <div class="footer-border"></div>
+                </div>
+
+            </div>
+            <div class="footer-end">
+                <div class="copyright ">
+                    <p>© 2024. All rights reserved by Zahid.</p>
+                </div>
+                <div class="privecy-policy ">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Use</a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <!-- js -->
+    <script src="./js/jquery-2.2.4.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/mixitup.min.js"></script>
+    <script src="./aos/aos.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/waypoints.min.js"></script>
+    <script src="/path/to/noframework.waypoints.min.js"></script>
+    <script src="./js/jquery.counterup.min.js"></script>
+    <script src="./js/about.js"></script>
+
+
+</body>
+
+</html>
